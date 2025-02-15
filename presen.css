@@ -28,6 +28,25 @@ header h1 {
 .ageinfo {
   font-size: 50%;
 }
+
+.section1 {
+  display: flex;
+}
+.section1 .image {
+  width: 600px; /*画像サイズ指定*/
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  object-fit: contain;
+  position: relative;
+}
+.section1 .image img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 /* presen2 強調1*/
 .emphasis {
   font-weight: bold;
@@ -35,8 +54,14 @@ header h1 {
 }
 .emphasis2 {
   font-weight: bolder;
+  color: #76695c;
+}
+.emphasis3 {
+  font-weight: bold;
   color: #E8854A;
 }
+
+/* presen3 */
 
 .initial-square {
   width: 200px;
